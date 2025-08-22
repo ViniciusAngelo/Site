@@ -18,9 +18,9 @@ import {
 } from 'lucide-react';
 
 // Importando as imagens
-import heroImage from 'src/assets/Igor martins.jpeg';
+import heroImage from './assets/Igor martins.jpeg';
 import officeImage from './assets/NYq9klNK3El4.jpg';
-import profileImage from 'src/assets/Profile.jpeg';
+import profileImage from './assets/Profile.jpeg';
 import justiceIcon from './assets/LVeLg92uUZi6.png';
 
 function App() {
