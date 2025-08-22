@@ -18,9 +18,9 @@ import {
 } from 'lucide-react';
 
 // Importando as imagens
-import heroImage from './assets/DHYEVu9F2G3M.jpg';
+import heroImage from '/home/ViniciusAngelo/Site/src/assets/Igor martins.jpeg';
 import officeImage from './assets/NYq9klNK3El4.jpg';
-import profileImage from './assets/4oJ41AXstIXA.jpg';
+import profileImage from '/home/ViniciusAngelo/Site/src/assets/Profile.jpeg';
 import justiceIcon from './assets/LVeLg92uUZi6.png';
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <img src={justiceIcon} alt="Justiça" className="h-8 w-8" />
-            <span className="font-bold text-xl text-primary">Dr. João Silva</span>
+            <span className="font-bold text-xl text-primary">Dr. Igor Martins</span>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
             <a href="#inicio" className="text-sm font-medium hover:text-primary transition-colors">Início</a>
@@ -41,7 +41,7 @@ function App() {
           </nav>
           <Button className="hidden md:inline-flex">
             <Phone className="mr-2 h-4 w-4" />
-            Consulta Gratuita
+            Agendar Consulta
           </Button>
         </div>
       </header>
@@ -53,7 +53,7 @@ function App() {
             <div className="space-y-6">
               <Badge variant="outline" className="w-fit">
                 <Award className="mr-2 h-4 w-4" />
-                25+ Anos de Experiência
+                8+ Anos de Experiência
               </Badge>
               <h1 className="text-4xl lg:text-6xl font-bold tracking-tight">
                 Advocacia
@@ -70,7 +70,7 @@ function App() {
                 </Button>
                 <Button variant="outline" size="lg" className="text-lg px-8">
                   <Phone className="mr-2 h-5 w-5" />
-                  (11) 9999-9999
+                  (15) 99774-6197
                 </Button>
               </div>
             </div>
@@ -78,7 +78,7 @@ function App() {
               <img 
                 src={heroImage} 
                 alt="Advogado profissional" 
-                className="rounded-lg shadow-2xl w-full h-[500px] object-cover"
+                className="rounded-lg shadow-2xl w-full h-[700px] object-cover"
               />
               <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground p-6 rounded-lg shadow-lg">
                 <div className="flex items-center space-x-2">
@@ -101,17 +101,17 @@ function App() {
             <div>
               <img 
                 src={profileImage} 
-                alt="Dr. João Silva" 
-                className="rounded-lg shadow-xl w-full h-[400px] object-cover"
+                alt="Dr. Igor Martins" 
+                className="rounded-lg shadow-xl w-full h-[700px] object-cover"
               />
             </div>
             <div className="space-y-6">
               <Badge variant="secondary" className="w-fit">Sobre o Advogado</Badge>
               <h2 className="text-3xl lg:text-4xl font-bold">
-                Dr. João Silva
+                Dr. Igor Martins
               </h2>
               <p className="text-lg text-muted-foreground">
-                Formado pela Universidade de São Paulo (USP) em 1998, com especialização em 
+                Formado pela Faculdade de Direito de Sorocaba (FADI) em 2018, com especialização em 
                 Direito Civil e Empresarial. Membro da OAB/SP desde 1999, com vasta experiência 
                 em litígios complexos e consultoria jurídica.
               </p>
@@ -122,7 +122,7 @@ function App() {
                 </div>
                 <div className="flex items-center space-x-2">
                   <Award className="h-5 w-5 text-primary" />
-                  <span className="text-sm">25+ Anos de Experiência</span>
+                  <span className="text-sm">8+ Anos de Experiência</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Scale className="h-5 w-5 text-primary" />
@@ -211,7 +211,7 @@ function App() {
                 Ambiente Profissional e Acolhedor
               </h2>
               <p className="text-lg text-muted-foreground">
-                Localizado no centro de São Paulo, nosso escritório oferece um ambiente 
+                Localizado em Sorocaba, nosso escritório oferece um ambiente 
                 moderno e confortável para atendimento aos clientes, com toda a infraestrutura 
                 necessária para prestar serviços jurídicos de excelência.
               </p>
@@ -243,11 +243,11 @@ function App() {
           <div className="text-center space-y-4 mb-16">
             <Badge variant="outline" className="w-fit mx-auto">Entre em Contato</Badge>
             <h2 className="text-3xl lg:text-4xl font-bold">
-              Agende sua Consulta Gratuita
+              Agende sua Consulta
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Estamos prontos para ajudar você. Entre em contato conosco e 
-              agende uma consulta gratuita para discutir seu caso.
+              agende uma consulta para discutir seu caso.
             </p>
           </div>
           
@@ -257,7 +257,7 @@ function App() {
               <h3 className="text-xl font-semibold mb-2">Telefone</h3>
               <p className="text-muted-foreground mb-4">Ligue para nós</p>
               <Button variant="outline" className="w-full">
-                (11) 9999-9999
+                (15) 99774-6197
               </Button>
             </Card>
             
@@ -266,7 +266,7 @@ function App() {
               <h3 className="text-xl font-semibold mb-2">E-mail</h3>
               <p className="text-muted-foreground mb-4">Envie uma mensagem</p>
               <Button variant="outline" className="w-full">
-                contato@joaosilva.adv.br
+                contato@igor.martins.adv.br
               </Button>
             </Card>
             
@@ -289,10 +289,10 @@ function App() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <img src={justiceIcon} alt="Justiça" className="h-8 w-8 filter invert" />
-                <span className="font-bold text-xl">Dr. João Silva</span>
+                <span className="font-bold text-xl">Dr. Igor Martins</span>
               </div>
               <p className="text-primary-foreground/80">
-                Advocacia especializada com 25 anos de experiência, 
+                Advocacia especializada com 8 anos de experiência, 
                 oferecendo soluções jurídicas personalizadas.
               </p>
             </div>
@@ -302,11 +302,11 @@ function App() {
               <div className="space-y-2 text-primary-foreground/80">
                 <div className="flex items-center space-x-2">
                   <Phone className="h-4 w-4" />
-                  <span>(11) 9999-9999</span>
+                  <span>(15) 99774-6197</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="h-4 w-4" />
-                  <span>contato@joaosilva.adv.br</span>
+                  <span>contato@igor.martins.adv.br</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <MapPin className="h-4 w-4" />
@@ -328,7 +328,7 @@ function App() {
           <Separator className="my-8 bg-primary-foreground/20" />
           
           <div className="text-center text-primary-foreground/80">
-            <p>&copy; 2024 Dr. João Silva - Advocacia Especializada. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Dr. Igor Martins - Advocacia Especializada. Todos os direitos reservados.</p>
             <p className="text-sm mt-2">OAB/SP 123.456</p>
           </div>
         </div>
